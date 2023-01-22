@@ -56,12 +56,15 @@ a:hover {
 
 .footer{
     display: flex;
-    gap: 12px;
+    gap: 112px;
     height: 30px;
     color: aliceblue;
     background-color: black;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 12px; padding-left: 0;
+    margin: 0px;
+    text-align: center;
+    
 }
 
 .ftlinks{
@@ -93,8 +96,10 @@ a:hover {
     display: flex;
     color: beige;
     padding-bottom: 10px;
+    padding-top: 15px;
     background-color: black;
     justify-content: center;
+    margin-bottom: auto;
 }
 .form-container{
     background-color: burlywood;
