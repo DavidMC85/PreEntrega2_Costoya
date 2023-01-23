@@ -61,7 +61,7 @@ a:hover {
     color: aliceblue;
     background-color: black;
     justify-content: center;
-    padding-top: 12px; padding-left: 0;
+    padding-top: 15px; padding-left: 0;
     margin: 0px;
     text-align: center;
     
@@ -110,6 +110,7 @@ h1{
 }
 h2{
     background-color: burlywood;
+    padding-top: 22px;
 }
 
 .lorem{
@@ -145,3 +146,6 @@ h2{
     padding: 250px;
 }
 
+#bootstrap_navbar{
+    background-color: wheat;
+}
