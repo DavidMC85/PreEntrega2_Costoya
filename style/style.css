@@ -71,15 +71,16 @@ a:hover {
     color: aliceblue;
 }
 
-.titulo{
+.titulo_main{
     font-size: 60px;
     font-family: impact;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.subtitulo{
-    padding-bottom: 30px;
+.subtitulo_main{
+    padding-bottom: 25px;
+    padding-top: 20px;
 }
 
 .present{
@@ -101,21 +102,32 @@ a:hover {
     justify-content: center;
     margin-bottom: auto;
 }
-.form-container{
-    background-color: burlywood;
-    padding-bottom: 60px;
-}
+
 h1{
     background-color: burlywood ;
 }
 h2{
     background-color: burlywood;
-    padding-top: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.lorem{
+.condiciones{
     background-color: burlywood;
     padding-bottom: 50px;
+    padding-left: 15px;
+}
+.fondo_condiciones{
+    background-color: wheat;
+}
+.titulo_condiciones{
+    padding-left: 10px;
+}
+.subtitulo_condiciones{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+
 }
 .img{
     display:grid;
@@ -127,9 +139,7 @@ h2{
             1fr
         )
     );
-
     grid-auto-rows: auto;
-
     gap: 2rem;
 }
 
@@ -149,10 +159,37 @@ h2{
 #bootstrap_navbar{
     background-color: wheat;
 }
-/* estilos carta */
 
-#entradas{
+.img_entradas{
+    display: grid;
     align-items: center;
+    align-content: center
+}
+.fondo_cartas{
+    align-content: center
+    ;
+    background-color: wheat;
 }
 
-    
+/*formulario */
+.form-container{
+    background-color: burlywood;
+    padding-bottom: 60px;
+    padding-left: 50px;
+}
+.txt_nombre{
+    margin-left: 50px;
+    padding-left: 100px;
+}
+.dni{
+    margin-left: 15px;
+    padding-left: 100px
+}
+.email{
+    margin-left: 50px;
+    padding-left: 100px;
+}
+.celu{
+    margin-left: 47px;
+    padding-left: 100px
+}
