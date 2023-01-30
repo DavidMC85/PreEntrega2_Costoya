@@ -7,30 +7,32 @@
 
 /*portada*/
 
+/*Navbar de Bootstrap*/
 #bootstrap_navbar {
     background-color: rgb(203, 144, 96);
 }
-.container-fluid{
+
+.container-fluid {
     font-family: 'Roboto', sans-serif;
 }
+
 .main {
     text-align: center;
     background-color: wheat;
-    }
+}
+
 #article_main {
     font-family: 'Roboto', sans-serif
 }
 
 .titulo {
     padding-bottom: 20px;
-
 }
 
 #portada {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 50px;
-
 }
 
 .titulo_main {
@@ -81,8 +83,8 @@ h2 {
     padding-left: 0;
     margin: 0px;
     text-align: center;
-
 }
+
 .foottxt {
     display: flex;
     color: beige;
@@ -130,16 +132,6 @@ a:hover {
     padding-left: 10px;
 }
 
-
-/*pagina de contacto*/
-
-.h1_contacto {
-    font-family: 'Roboto', sans-serif;
-}
-.h2_contacto {
-    font-family: 'Roboto', sans-serif;
-    text-shadow: 5px;
-}
 /*galeria* -RESPONSIVE */
 
 .img_galeria {
@@ -153,13 +145,12 @@ a:hover {
     grid-auto-rows: auto;
     gap: 2rem;
     overflow: hidden;
-
 }
 
 /* Animacion y Transformacion */
 .imgimg {
-    width: 400px;
-    height: 250px;
+    width: 450px;
+    height: 300px;
     transition: transform .3s ease-in-out;
 }
 
@@ -203,11 +194,23 @@ a:hover {
     padding: 2em;
 }
 
+/*pagina de contacto*/
+
+.h1_contacto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.h2_contacto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
 /*formulario */
 .form-container {
     background-color: rgb(232, 195, 147);
     padding-bottom: 60px;
     padding-left: 50px;
+    font-weight: 500;
 }
 
 .txt_nombre {
