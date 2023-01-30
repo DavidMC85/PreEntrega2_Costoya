@@ -3,97 +3,87 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.bootsrap_navbar {
-    color: wheat;
-}
+/*portada*/
 
-a{
-    color: aliceblue;
-    text-decoration: none;
+#bootstrap_navbar {
+    background-color: rgb(203, 144, 96);
 }
-a:hover {
-    color: wheat;
+.container-fluid{
+    font-family: 'Roboto', sans-serif;
 }
-
-.navigation {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 3rem;
-    width: 100%;
-    background: rgb(32, 31, 45);
-    padding-top: 25px;
-}
-
-.links{
-    display: flex;
-    gap: 3em;
-    
-}
-
-.link:active{
-    background-color: rgb(116, 121, 255);
-    border: solid 1px black;
-}
-
-.main{
+.main {
     text-align: center;
     background-color: wheat;
+    }
+#article_main {
+    font-family: 'Roboto', sans-serif
 }
-.titulo{
+
+.titulo {
     padding-bottom: 20px;
 
 }
-#portada{
+
+#portada {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 50px;
 
 }
 
-.footer{
-    display: flex;
-    gap: 112px;
-    height: 30px;
-    color: aliceblue;
-    background-color: black;
-    justify-content: center;
-    padding-top: 15px; padding-left: 0;
-    margin: 0px;
-    text-align: center;
-    
-}
-
-.ftlinks{
-    color: aliceblue;
-}
-
-.titulo_main{
+.titulo_main {
     font-size: 60px;
     font-family: impact;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.subtitulo_main{
+.subtitulo_main {
     padding-bottom: 25px;
     padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.present{
+.present {
     padding-top: 30px;
     font-weight: bold;
+    font-family: 'Caveat', cursive;
+    font-size: xx-large;
 }
 
-.video{
+.video {
     padding-top: 40px;
-    padding-bottom: 40px
-    ;
+    padding-bottom: 40px;
 }
-.foottxt{
+
+h1 {
+    background-color: burlywood;
+}
+
+h2 {
+    background-color: burlywood;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*Pie de Pagina*/
+
+.footer {
+    display: flex;
+    gap: 112px;
+    height: 30px;
+    color: aliceblue;
+    background-color: black;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 0;
+    margin: 0px;
+    text-align: center;
+
+}
+.foottxt {
     display: flex;
     color: beige;
     padding-bottom: 10px;
@@ -101,95 +91,141 @@ a:hover {
     background-color: black;
     justify-content: center;
     margin-bottom: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1{
-    background-color: burlywood ;
-}
-h2{
-    background-color: burlywood;
-    padding-top: 15px;
-    padding-bottom: 15px;
+a {
+    color: white;
+    text-decoration: none;
 }
 
-.condiciones{
+a:hover {
+    color: wheat;
+}
+
+.ftlinks {
+    color: aliceblue;
+}
+
+/*terminos y condiciones - RESPONSIVE*/
+
+.condiciones {
     background-color: burlywood;
     padding-bottom: 50px;
     padding-left: 15px;
 }
-.fondo_condiciones{
-    background-color: wheat;
+
+.fondo_condiciones {
+    background-color: rgb(232, 195, 147);
+    padding-bottom: 35px;
 }
-.titulo_condiciones{
+
+.titulo_condiciones {
     padding-left: 10px;
 }
-.subtitulo_condiciones{
+
+.subtitulo_condiciones {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
-
 }
-.img{
-    display:grid;
-    background-color: burlywood;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(
-            27rem,
-            1fr
-        )
-    );
+
+
+/*pagina de contacto*/
+
+.h1_contacto {
+    font-family: 'Roboto', sans-serif;
+}
+.h2_contacto {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px;
+}
+/*galeria* -RESPONSIVE */
+
+.img_galeria {
+    display: grid;
+    padding: 4em;
+    background-color: rgb(232, 195, 147);
+    gap: 4rem;
+    grid-template-columns: repeat(auto-fit,
+            minmax(25rem,
+                2fr));
     grid-auto-rows: auto;
     gap: 2rem;
+    overflow: hidden;
+
 }
 
-.menu_main{
-    justify-content: center;
-    text-align: center;
-    background-color: burlywood;
-    padding: 200px;
-}
-.login_main{
-    justify-content: center;
-    text-align: center;
-    background-color: burlywood;
-    padding: 250px;
+/* Animacion y Transformacion */
+.imgimg {
+    width: 400px;
+    height: 250px;
+    transition: transform .3s ease-in-out;
 }
 
-#bootstrap_navbar{
-    background-color: wheat;
+.imgimg:hover {
+    transform: scale(1.2);
 }
 
-.img_entradas{
+@media only screen and (max-width: 768px) {
+    .img_galeria {
+        display: grid;
+        padding-left: 3rem;
+    }
+}
+
+/*menu de cartas*/
+
+.fondo_cartas {
     display: grid;
-    align-items: center;
-    align-content: center
+    grid-template-columns: auto;
+    grid-column: 2/3;
+    align-content: center;
+    background-color: rgb(232, 195, 147);
 }
-.fondo_cartas{
-    align-content: center
-    ;
-    background-color: wheat;
+
+.img_cartas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column: 2/3;
+    image-resolution: auto;
+}
+
+.carta_postre {
+    padding: 5em;
+}
+
+.carta_entradas {
+    padding: 2em;
+}
+
+.carta_principales {
+    padding: 2em;
 }
 
 /*formulario */
-.form-container{
-    background-color: burlywood;
+.form-container {
+    background-color: rgb(232, 195, 147);
     padding-bottom: 60px;
     padding-left: 50px;
 }
-.txt_nombre{
+
+.txt_nombre {
     margin-left: 50px;
     padding-left: 100px;
 }
-.dni{
+
+.dni {
     margin-left: 15px;
     padding-left: 100px
 }
-.email{
+
+.email {
     margin-left: 50px;
     padding-left: 100px;
 }
-.celu{
+
+.celu {
     margin-left: 47px;
     padding-left: 100px
 }
