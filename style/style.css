@@ -30,11 +30,19 @@
 }
 
 #portada {
+    align-items: center;
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 50px;
+    width: 450px;
+    height: 400px;
 }
-
+@media only screen and (max-width: 768px) {
+    .portada{
+        display: grid;
+        padding-left: 1rem;
+    }
+}
 .titulo_main {
     font-size: 60px;
     font-family: impact;
@@ -100,7 +108,10 @@ a {
     color: white;
     text-decoration: none;
 }
-
+.terminos{
+    color: rgb(22, 38, 146);
+    font-family: 'Roboto', sans-serif;
+}
 a:hover {
     color: wheat;
 }
@@ -161,7 +172,7 @@ a:hover {
 @media only screen and (max-width: 768px) {
     .img_galeria {
         display: grid;
-        padding-left: 3rem;
+        padding-left: 10px;
     }
 }
 
@@ -198,11 +209,13 @@ a:hover {
 
 .h1_contacto {
     font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
 }
 
 .h2_contacto {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
+    padding-left: 10px;
 }
 
 /*formulario */
@@ -224,11 +237,11 @@ a:hover {
 }
 
 .email {
-    margin-left: 50px;
+    margin-left: 51px;
     padding-left: 100px;
 }
 
 .celu {
-    margin-left: 47px;
+    margin-left: 48px;
     padding-left: 100px
 }

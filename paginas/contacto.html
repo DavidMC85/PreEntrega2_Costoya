@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante Ramallo - Contacto</title>
+    
+    
     <!-- cdn fawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -15,8 +17,7 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--linkeo a google fonts  -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
-    
-    <link rel="stylesheet" href="../style/style.css"> 
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
@@ -76,7 +77,7 @@
                 <br />
                 <div>Indique tipo de consulta:</div>
                 <br />
-                <select name="consulta">
+                <select class="btn btn-dark" name="consulta">
                     <option value="reserva">Reserva</option>
                     <option value="evento">Evento</option>
                     <option value="otros">Otra consulta</option>
@@ -84,16 +85,16 @@
                 <br />
                 <br />
 
-                <div><a href="../paginas/condiciones.html">Terminos y condiciones</a></div>
+                <div><a class="terminos" href="../paginas/condiciones.html"> -->Terminos y condiciones<-- </a></div>
                 <br />
                 <input type="checkbox" name="acepto" value="Si" /> Acepto terminos y condiciones
                 <br />
                 <br />
                 <br />
-                <input type="reset" value="Limpiar el formulario" />
+                <input class="btn btn-dark" type="reset" value="Limpiar el formulario" />
                 <br />
                 <br />
-                <input type="submit" value="Enviar formulario" />
+                <input class="btn btn-success" type="submit" value="Enviar formulario" />
                 </fielset>
         </form>
     </main>
