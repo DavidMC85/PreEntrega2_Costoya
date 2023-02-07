@@ -1,0 +1,11 @@
+/*-------Reset de Css----------*/
+@import "../scss/reset/normalize";
+
+@import "../scss/sections/header";
+@import "../scss/sections/section_main";
+@import "../scss/sections/footer";
+@import "../scss/schemes/backgrounds";
+@import "../scss/mediaq/mediaq";
+
+@include titulo;
+@include subtitulo;

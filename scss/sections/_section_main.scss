@@ -1,0 +1,119 @@
+.main {
+    text-align: center;
+}
+
+/*.titulo_main {
+    font-family:Impact;
+    font-size:65px;
+    font-weight:600;
+    padding-top: 30px;
+}*/
+
+#article_main {
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    padding-bottom: 20px;
+}
+
+#portada {
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 450px;
+    height: 400px;
+}
+
+.present {
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    font-size: xx-large;
+}
+
+.video {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form-container {
+    background-color: rgb(232, 195, 147);
+    padding-bottom: 60px;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.terminos {
+    color: rgb(22, 38, 146);
+    font-family: 'Roboto', sans-serif;
+}
+.condiciones {
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+
+.fondo_condiciones {
+    padding-bottom: 35px;
+}
+
+.titulo_condiciones {
+    padding-left: 10px;
+}
+
+.subtitulo_condiciones {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+/*---------galeria-----------*/
+
+.img_galeria {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    grid-template-columns: repeat(auto-fit,
+            minmax(25rem,
+                2fr));
+    grid-auto-rows: auto;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* Animacion y Transformacion */
+.imgimg {
+    width: 450px; 
+    height: 280px;
+    max-width: 450px;
+    max-height: 300px;
+    transition: transform .3s ease-in-out;
+}
+
+.imgimg:hover {
+    transform: scale(1.2);
+}
+
+/*menu de cartas*/
+
+.fondo_cartas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column: 2/3;
+    align-content: center;
+}
+
+.img_cartas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column: 2/3;
+    image-resolution: auto;
+}

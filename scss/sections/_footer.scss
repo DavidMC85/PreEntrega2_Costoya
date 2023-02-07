@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    gap: 112px;
+    height: 30px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 0;
+    margin: 0px;
+    text-align: center;
+}
+
+.foottxt {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    justify-content: center;
+    margin-bottom: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: wheat;
+}
+
+.ftlinks {
+    color: aliceblue;
+}
