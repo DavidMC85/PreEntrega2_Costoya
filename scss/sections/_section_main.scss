@@ -2,19 +2,21 @@
     text-align: center;
 }
 
-/*.titulo_main {
-    font-family:Impact;
-    font-size:65px;
-    font-weight:600;
-    padding-top: 30px;
-}*/
 
 #article_main {
     font-family: 'Roboto', sans-serif;
 }
-
-.titulo {
+.titulo_main {
+    font-size: 60px;
+    font-family: impact;
+    padding-top: 20px;
     padding-bottom: 20px;
+}
+.subtitulo_main {
+    padding-bottom: 25px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 #portada {
@@ -39,15 +41,17 @@
 }
 
 .form-container {
-    background-color: rgb(232, 195, 147);
+    background-color: rgb(189, 115, 19);
     padding-bottom: 60px;
     padding-left: 50px;
     font-weight: 500;
 }
 
-h2 {
+.h2_contacto {
     padding-top: 15px;
     padding-bottom: 15px;
+    font-weight: 800;
+    font-family: 'Lucida Sans'
 }
 
 .terminos {

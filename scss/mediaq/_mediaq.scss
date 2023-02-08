@@ -165,17 +165,16 @@
     .carta_postre {
         max-width: 640px;
         max-height: auto;
-        padding-top: 100px;
-        padding-bottom: 100px;        
+        padding-top: 200px;
+        padding-bottom: 200px;        
         touch-action: auto
     }
-
 }  
 
 @media only screen and (max-width: 620px) and (min-width: 501px) { 
     .carta_postre {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 200px;
+        padding-bottom: 200px;
         max-width: 520px;
         max-height: auto;
     }
@@ -183,7 +182,7 @@
 
 @media only screen and (max-width: 500px) and (min-width: 341px) {  
     .carta_postre {
-        padding-top: 100px;
+        padding-top: 200px;
         padding-bottom: 150px;
         max-width: 345px;
         max-height: auto;
